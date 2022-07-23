@@ -4,17 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
+    <script src="./client/js/scripts.js" defer></script>
+    <link rel="stylesheet" href="./client/css/styles.css" />
+    <title>Comments</title>
   </head>
   <body>
-    <form action="">
-      <input type="text" />
-      <input type="button" value="Send" />
-    </form>
-
     <section>
-      <h2>Input details should appear underneath:</h2>
-      <div id="inputDisplay"></div>
+      <h2>Comments appear underneath</h2>
+      <div id="displayComments"></div>
     </section>
+
+    <form>
+      <textarea
+        name="comment"
+        id="comment"
+        cols="70"
+        rows="10"
+        maxlength="10"
+      ></textarea>
+      <br />
+      <input type="button" value="post" />
+    </form>
   </body>
 </html>
