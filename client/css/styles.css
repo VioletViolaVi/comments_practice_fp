@@ -1,0 +1,11 @@
+* {
+  text-align: center;
+}
+
+#displayComments {
+  border: solid black 0.2rem;
+  height: 15rem;
+  width: 40rem;
+  overflow: hidden;
+  margin: 2rem auto;
+}
