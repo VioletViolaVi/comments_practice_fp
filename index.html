@@ -11,19 +11,21 @@
   <body>
     <section>
       <h2>Comments appear underneath</h2>
-      <div id="displayComments"></div>
+      <div>
+        <ul id="displayComments"></ul>
+      </div>
     </section>
 
-    <form>
+    <form id="wholeForm">
       <textarea
-        name="comment"
-        id="comment"
+        name="commentTextarea"
+        id="commentTextarea"
         cols="70"
         rows="10"
-        maxlength="10"
+        maxlength="30"
       ></textarea>
       <br />
-      <input type="button" value="post" />
+      <input type="submit" value="post" />
     </form>
   </body>
 </html>
