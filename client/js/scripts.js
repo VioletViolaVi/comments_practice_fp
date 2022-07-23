@@ -1,18 +1,17 @@
-console.log("it is linked");
-
 const commentsBox = document.getElementById("displayComments"); // where comments are displayed
-const comment = document.getElementById("comment"); // where to type comments
+const commentTextarea = document.getElementById("commentTextarea"); // where to type comments
+const form = document.getElementById("wholeForm");
 
-function submitComment(e) {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  const commentData = {
-    comment: e.target.comment.value,
-  };
-}
+  const newCommentLi = document.createElement("li");
 
-function addComment(commentData) {
-  const newComment = document.createElement("li");
-  newComment.textContent = commentData.comment;
-  commentsBox.appendChild(newComment);
-}
+  newCommentLi.innerText = commentTextarea.value;
+  commentsBox.appendChild(newCommentLi);
+
+  console.log("newCommentLi: ", newCommentLi);
+  console.log("commentsBox: ", commentsBox);
+
+  commentTextarea.value = "";
+});
