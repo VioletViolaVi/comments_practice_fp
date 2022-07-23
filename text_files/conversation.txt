@@ -1,9 +1,0 @@
-A: Hi. Welcome to Chucky Cheese. Can I take your order?
-
-B: Hi. I would like a cheesy pizza please.
-
-A: No problem. That's £34.90 please.
-
-B: Here you are. Thanks.
-
-B: You're welcome. Thank you for choosing chucky cheese!
