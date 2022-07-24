@@ -88,6 +88,12 @@ fs.appendFile(path.join(__dirname, "draft.js"), 'console.log("this is a draft");
 });
 */
 
+// for testing practice
+const getLargest = (a, b, c) => {
+  return Math.max(a, b, c);
+};
+console.log(getLargest(1, 2, 3));
+
 const port = 4000;
 app.listen(port, () => {
   console.log(`Listening on port ${port}...`);
