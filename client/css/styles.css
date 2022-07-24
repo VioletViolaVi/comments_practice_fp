@@ -6,6 +6,6 @@
   border: solid black 0.2rem;
   height: 15rem;
   width: 30.5rem;
-  overflow: hidden;
+  overflow: scroll;
   margin: 2rem 0;
 }
